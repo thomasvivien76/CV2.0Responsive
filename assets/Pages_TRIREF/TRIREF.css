@@ -1,0 +1,31 @@
+body{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    background-color: #4472C4;
+}
+h2, p{
+    border: 0.5rem ridge black;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    padding: 1rem;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+p:hover{
+    font-style: italic;
+    font-size: 2rem;
+    width: 600px;
+}
+#gras{
+    font-weight: bold;
+}
